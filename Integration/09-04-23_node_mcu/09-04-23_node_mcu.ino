@@ -20,8 +20,8 @@
 SoftwareSerial my(D1,D2);//RX,TX
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "realme 9 5G";
-char pass[] = "p3cnky6n";
+char ssid[] = "xxxxxxxx";
+char pass[] = "xxxxxxxxxx";
 
 void setup() {
   Serial.begin(115200);

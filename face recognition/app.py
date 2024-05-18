@@ -23,9 +23,8 @@ cam.set(4, 480)  # set video height
 minW = 0.1 * cam.get(3)
 minH = 0.1 * cam.get(4)
 
-TELEGRAM_BOT_TOKEN = '7084244820:AAFpl2gzJvFO3jc0_UZk5Ioh5_QsCNTItO8'
-TELEGRAM_CHAT_ID = '574331983' #'1428537894' 
-
+TELEGRAM_BOT_TOKEN = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+TELEGRAM_CHAT_ID = 'xxxxxxxxx'
 def send_telegram_message(message, image_path):
     url = f'https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendPhoto'
     files = {'photo': open(image_path, 'rb')}
